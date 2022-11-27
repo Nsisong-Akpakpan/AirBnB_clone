@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jun 29 07:56:17 2020
+Created on Sat Nov  26 13:56:43 2022
 
-@author: Robinson Montes
-         Carlos Murcia
+@author: Nsisong Akpakpan
+         Lebi shadrack
 """
 import cmd
 import models
@@ -216,6 +216,7 @@ class HBNBCommand(cmd.Cmd):
             print("** value missing **")
             return False
         return True
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
